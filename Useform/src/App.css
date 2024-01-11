@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    text-align: center;
+    margin-top: 50px;
+    border: black solid 1px;
+    border-radius: 10px;
+}
+
+.registration-form {
+    padding: 20px 80px;
+    margin: 0 auto;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+input {
+    margin: 10px;
+    width: 100%;
+    height: 30px;
+    border: #6d7781 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.submit-button {
+    margin-top: 10px;
+    width: 105%;
+    height: 40px;
+    background-color: #31680d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+.submit-button:hover{
+    background-color:#468d17;
+}
